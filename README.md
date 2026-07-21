@@ -1,5 +1,7 @@
 # zzfxm-rs
 
+[![CI](https://github.com/meowous3/zzfxm-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/meowous3/zzfxm-rs/actions/workflows/ci.yml)
+
 A faithful, unofficial Rust port of [ZzFXM](https://github.com/keithclark/ZzFXM), the tiny tracker-style music renderer by Keith Clark and Frank Force.
 
 `zzfxm-rs` turns ZzFX instruments, reusable patterns, a sequence, and a BPM into stereo `f32` PCM. It uses [`zzfx-rs`](https://github.com/meowous3/zzfx-rs) for ZzFXM-compatible instrument synthesis and leaves playback to the application.
